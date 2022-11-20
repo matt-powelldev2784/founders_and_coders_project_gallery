@@ -1,0 +1,80 @@
+.primary_flexbox__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  border: 3px solid blue;
+}
+
+.card__container {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  border: 3px solid #7fff00;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(14vw + 8rem);
+  height: 28rem;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+  border: 3px solid #7fff00;
+}
+@media only screen and (max-width: 451px) {
+  .card {
+    width: 95%;
+  }
+}
+
+.card__img {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 0.5rem auto;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.card__h1 {
+  text-align: center;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.card__p {
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  margin: 0.5rem;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__button {
+  padding: 0.25rem;
+  margin: 0.5rem;
+  background-color: transparent;
+  border: 2px solid green;
+  color: green;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+}
