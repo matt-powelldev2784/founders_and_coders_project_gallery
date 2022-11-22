@@ -76,6 +76,10 @@ projectDetails.forEach((project) => {
   const cardContainer = document.getElementById('card__container')
   cardContainer.appendChild(card)
 
+  const buttonKey = document.getElementById(`card_button_${project.key}`)
+  buttonKey.style.color = project.buttonColor
+  buttonKey.style.border = `2px solid ${project.buttonColor}`
+
   //button event listener
   button.addEventListener('click', toogleCardDetails)
 })
