@@ -24,7 +24,7 @@ export const projectDetails = [
     image: './img/weather_clouds.jpg',
     title: 'Weather App',
     description:
-      "A weather app made using vanilla JavaScript, HTML and CSS.I used this project to practice my newly learnt JavaScript skills, it uses async functions, geocoding API's, utilizes DOM manipulation and CSS media queries for a responsive design.",
+      "A weather app made using vanilla JavaScript, HTML and CSS. I used this project to practice my newly learnt JavaScript skills, it uses async functions, geocoding API's, utilizes DOM manipulation and CSS media queries for a responsive design.",
     href: 'https://mattpowell2784-javascript-weather-app.netlify.app/',
     state: { descriptionVisible: false },
     buttonColor: 'blue',
