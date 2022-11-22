@@ -72,6 +72,11 @@
   text-align: justify;
   text-justify: auto;
 }
+@media screen and (max-device-width: 992px) and (orientation: landscape) {
+  .card__p {
+    text-align: center;
+  }
+}
 
 .button__container {
   display: flex;
